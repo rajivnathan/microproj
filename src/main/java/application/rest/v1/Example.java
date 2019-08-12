@@ -21,6 +21,7 @@ public class Example {
         List<String> list = new ArrayList<>();
         //return a simple list of strings
         list.add("Congratulations!! Test branch!");
+        list.add("Congratulations!! Test branch2!");
         return Response.ok(list.toString()).build();
     }
 
